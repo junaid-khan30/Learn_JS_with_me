@@ -18,6 +18,6 @@ var temp = "";
 
 for (var i = 0; i < str.length; i++) {
     console.log(`${temp}${str[i]}`);
-    temp += `${str[i]} `;
+   temp += `${str[i]} `;
 
 }
