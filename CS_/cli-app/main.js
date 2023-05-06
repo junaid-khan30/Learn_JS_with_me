@@ -21,7 +21,7 @@ var xyz = function (str) {
     return str.toUpperCase();
 }
 
-var northstar = "northstar";
+var northstar = "lucifer";
 
 
 module.exports = {
