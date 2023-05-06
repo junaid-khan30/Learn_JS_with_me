@@ -16,3 +16,5 @@ function isArmstrong(num){
     var result = isArmstrong(inputNum);
 
     console.log(result);
+//math.floor converts the float value to round off of it 
+//math.ceil converts the number to next apprx forward value
