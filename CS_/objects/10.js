@@ -10,4 +10,9 @@ function extractCountry(data, countryName){
     }
     return countries;
 }
-console.log(extractCountry(data,"Egypt"));
+var result = extractCountry(data, "Russia");
+console.log(result);
+
+
+
+console.log(result.length);
