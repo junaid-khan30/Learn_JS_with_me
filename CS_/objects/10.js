@@ -13,6 +13,7 @@ function extractCountry(data, countryName){
 var result = extractCountry(data, "Russia");
 console.log(result);
 console.log(result.length);
+
 function countriesList(data){
     var countries = [];
     for ( var i =0; i < data.length; i++){
@@ -22,6 +23,15 @@ function countriesList(data){
     }
     return countries;
 }
+var countries = countriesList(data);
 
-console.log(countriesList(data));
-console.log(countriesList(data).length);
+function newData(countries) {
+    var finalData = {};
+    for ( var i = 0; i < countries.length; i++) {
+        finalData[countries[i]] = extractCountry(data, countries[i]);
+    }
+    return finalData;
+}
+var result = newData(countries);
+
+console.log(result);
