@@ -12,7 +12,16 @@ function extractCountry(data, countryName){
 }
 var result = extractCountry(data, "Russia");
 console.log(result);
-
-
-
 console.log(result.length);
+function countriesList(data){
+    var countries = [];
+    for ( var i =0; i < data.length; i++){
+        if (!countries.includes(data[i].country)){
+            countries.push(data[i].country);
+        }
+    }
+    return countries;
+}
+
+console.log(countriesList(data));
+console.log(countriesList(data).length);
