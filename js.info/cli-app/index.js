@@ -10,7 +10,7 @@ var age = readlineSync.questionInt("What is your age :");
 console.log(`Your are ${age} old `);
 //For email input:
 var email = readlineSync.questionEMail("What is your email : ");
-console.log(`We keep spamming you at ${email}`);
+console.log(`Hey! ${fname},We keep spamming you at ${email}`);
 
 //npm : node package manager
 //write npm run dhoni to get ls -l 
