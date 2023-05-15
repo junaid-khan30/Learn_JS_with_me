@@ -28,4 +28,6 @@ console.log(data);
 console.log(data.address);
 //if you want only city
 console.log(data.avgMarks(data.address.marks));
+//Note : if a function is embedded in an object we call it method(see avgMarks in 3.js) and if its outside it is a function (see 2.js)
+
 
