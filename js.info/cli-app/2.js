@@ -19,7 +19,11 @@ console.log(address.marks);
 
 //funtion to get average of marks
 function average(marks){
-    return (10+20+30+40+50)/5;
+   var sum = 0;
+   for (var i=0; i<marks.length; i++){
+    sum += marks[i];
+   }
+   return sum/marks.length;
 }
 var result1 = average(address.marks);
 console.log(`Average of marks is ${result1}`);
