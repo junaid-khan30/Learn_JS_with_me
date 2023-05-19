@@ -25,4 +25,4 @@ Reasoning: This line uses string interpolation with the template literal syntax 
 
 console.log("${a}\t\n${b}");
 Output: "Walter Prash"
-Reasoning: This line uses string interpolation with the template literal syntax to concatenate the values of a and b within double quotes. The special characters \t and \n are used to represent a tab and a new line, respectively. The output will be "Walter", followed by a tab character, a new line, and then "Prash".*/
+Reasoning: This line uses string interpolation with the template literal syntax to concatenate the values of a and b within double quotes. The special characters \t and \n are used to represent a tab and a new line, respectively. The output will be "Walter", followed by a tab character, a new line, and then "Prash".`*/
