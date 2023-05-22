@@ -2,6 +2,7 @@ var readlineSync = require('readline-sync');
 var mgpaCalculator = require("./mgpa.js");
 var cgpaCalculator = require("./cgpa.js");
 
+while (true){
 console.log("-------------------");
 console.log("OPTIONS");
 console.log("-------------------");
@@ -19,8 +20,16 @@ switch (userChoice) {
         cgpaCalculator();
         break;
     case 0:
+        console.clear();
         console.log("Okay! Exiting from program. Bye Bye...");
+        process.exit(0);
         break;
     default:
         console.log("Invalid Option! Please Select Valid Option From the Menu.");
+}
+var decisionToContinue = readlineSync.question("Want to perform again? y/N:");
+if (decisionToContinue == 'n' || decisionToContinue == 'N'){
+    console.log("Okay! Exiting from program. Bye Bye...");
+    process.exit(0);
+}
 }
