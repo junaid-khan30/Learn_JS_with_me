@@ -21,3 +21,8 @@ function playGame() {
     console.log(Math.floor(Math.random() * 100) + 50);//[50, 149]
 }
 playGame();
+
+function pureRandom(min, max) {
+    console.log(Math.floor(Math.random() * max) + min);
+}
+pureRandom(10, 20);
