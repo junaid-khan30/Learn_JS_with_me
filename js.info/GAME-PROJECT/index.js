@@ -17,5 +17,7 @@ function playGame() {
     console.log(Math.floor(Math.random() * 10) + 1); //[1,10]
 
     console.log(Math.floor(Math.random() * 10) + 5); //[5, 14]
+
+    console.log(Math.floor(Math.random() * 100) + 50);//[50, 149]
 }
 playGame();
