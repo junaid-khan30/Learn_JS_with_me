@@ -32,3 +32,9 @@ function pureRandom(min, max) {
     console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 }
 pureRandom(10, 20);
+
+//To return this random 
+function pureRandom(min, max) {
+    return (Math.floor(Math.random() * (max - min + 1)) + min);
+}
+console.log(pureRandom(10, 20));
