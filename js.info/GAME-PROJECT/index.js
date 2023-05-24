@@ -26,3 +26,9 @@ function pureRandom(min, max) {
     console.log(Math.floor(Math.random() * max) + min);
 }
 pureRandom(10, 20);
+
+//to get exact min and max number
+function pureRandom(min, max) {
+    console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+}
+pureRandom(10, 20);
