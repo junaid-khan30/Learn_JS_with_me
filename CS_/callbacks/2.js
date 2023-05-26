@@ -1,10 +1,10 @@
 var fs = require("fs/promises");
 
 fs.readFile("todos.json")
-.then(()=>{
-
+.then((data)=>{
+    console.log(data);
 })
-.catch(()=>{
-
+.catch((error)=>{
+    console.error(err);
 })
 
