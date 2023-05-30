@@ -1,7 +1,8 @@
 //setInterval 
 
+var count =0;
 setInterval(()=>{
-    console.log(`I am a lazy fellow today ...`);
+    console.log(`I am a lazy fellow today ... : ${++count} `);
 },1500);
 
 /* he setInterval function takes two arguments: a function and a time interval in milliseconds. In this case, the interval is set to 1500 milliseconds, or 1.5 seconds.
