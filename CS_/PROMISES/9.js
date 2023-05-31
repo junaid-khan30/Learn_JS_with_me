@@ -18,4 +18,8 @@ function abc(num1,num2){
     }
 }
 
+console.log("I am First");
 abc(15,19);
+console.log("I am Last");
+
+// The abc() is a sync function 
