@@ -14,4 +14,6 @@ fs.readFile("data.txt",(err,data)=>{
 })
 
 console.log("Get out of Deppression , and pray and workhard at same time ");
+//What is CALLBACK in the above code snippet?
+//NOTE : The CB is asynchronous
 //fs functions are async, you can see that with this eg
