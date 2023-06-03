@@ -12,6 +12,16 @@ fs.readFile("countries.json",(err,data)=>{
         }
         console.log(countryCodes);
         console.log(countryCodes.length);
-
-    }
+        console.log(list.length);
+     }
 });
+/*
+function countryData(country, list){
+    var cities = [];
+    for (var i=0; i < list.length; i++){
+        if(list[i].country === country){
+            countries.push(list[i]);
+        }
+    }
+    return countries;
+}*/
