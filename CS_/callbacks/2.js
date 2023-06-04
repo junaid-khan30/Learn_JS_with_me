@@ -16,3 +16,4 @@ fs.readFile("todos.json")
 console.log("Hi I am Last");
 
 //line no 6 & 7 is to show that , fs is async 
+//In JSON files , double quotation are optional if the value/key are numbers
