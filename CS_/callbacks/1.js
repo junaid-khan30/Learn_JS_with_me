@@ -74,7 +74,7 @@ allowing the program to handle the result or continue with the next steps.
             - How to consume a Promise ?
                 * .then()
                   .catch()
-            Note : 
+            Note : its easy to use promise created by others than using our made promise
             - How to create a Promise ?
         3) Async - Await
         4) Generators
