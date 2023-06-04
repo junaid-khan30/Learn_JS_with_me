@@ -9,9 +9,10 @@ fs.readFile("todos.json")
 .then((data)=>{
     var todos = JSON.parse(data);
     console.log(todos[0]);
-})
-.catch((error)=>{
-    console.error(err);
+}).catch((err)=>{
+    console.log(err);
 })
 
 console.log("Hi I am Last");
+
+//line no 6 & 7 is to show that , fs is async 
