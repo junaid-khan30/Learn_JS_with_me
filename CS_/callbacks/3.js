@@ -1,8 +1,14 @@
 var axios = require("axios");
+var fs = require("fs/promises");
 
-axios.get("http://jsondaughter.typicode.com/users")
+axios.get("http://jsonplaceholder.typicode.com/users")
      .then((res)=> {
-        console.log(res.data);
+      var users = res.data;
+      fs.writeFile("users.json",JSON.stringify(users))
+      .then(()=>{
+        console.log("File users.json is created");
+      })
+        
      })
      .catch((err)=>{
         console.error("Hey Dumb! type your url properly");
