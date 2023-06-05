@@ -13,7 +13,7 @@ async function main(){
         var data = await fs.readFile("todos.json");
         console.log(JSON.parse(data));
     }catch (error){
-        console.error(err);
+        console.error(error);
     }
 }
 main();
