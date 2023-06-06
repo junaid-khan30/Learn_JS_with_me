@@ -26,6 +26,17 @@ function base64Encoding (inputStr){
         binaries6Bit.push(binaryMerge.slice(i,i+6));
     }
     console.log(binaries6Bit);
+    var base64Numbers = [];
+    for(var i=0; i<binaries6Bit.length; i++){
+        base64Numbers.push(parseInt(binaries6Bit[i],2));
+    }
+    console.log(base64Numbers);
+    var base64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    var result = '';
+    for(var i=0; i<base64Numbers.length; i++){
+        result += base64[base64Numbers[i]];
+    }
+    console.log(result);
 
 }
 base64Encoding();
