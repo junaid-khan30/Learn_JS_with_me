@@ -1,4 +1,6 @@
+var readlineSync = require("readline-sync");
 function base64Encoding (inputStr){
+    var inputStr = readlineSync.question("Enter the text which you want to encode : ")
     var inputStr =  inputStr.split("");
     //Step1 : Split the word into ASCII Characters
     console.log(inputStr);
@@ -26,4 +28,4 @@ function base64Encoding (inputStr){
     console.log(binaries6Bit);
 
 }
-base64Encoding("THS");
+base64Encoding();
