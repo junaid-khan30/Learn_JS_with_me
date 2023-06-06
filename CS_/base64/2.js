@@ -17,5 +17,13 @@ function base64Encoding (inputStr){
         binariesArray.push(binary);
     }
     console.log(binariesArray);
+    var binaryMerge = binariesArray.join('');
+    console.log(binaryMerge);
+    var binaries6Bit = [];
+    for(var i =0; i<binaryMerge.length; i=i+6){
+        binaries6Bit.push(binaryMerge.slice(i,i+6));
+    }
+    console.log(binaries6Bit);
+
 }
 base64Encoding("THS");
