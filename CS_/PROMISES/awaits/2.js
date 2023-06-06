@@ -7,13 +7,15 @@ NOTE 2 : Async await is an extension to consume an existing promise
 Step 1 : Entire async code must be wrapped in a function with a try catch block
 
 */
-
+console.log("I am first");
 async function main(){
     try{
         var data = await fs.readFile("todos.json");
         console.log(JSON.parse(data));
+       
     }catch (error){
         console.error(error);
     }
 }
 main();
+console.log("i am last");
