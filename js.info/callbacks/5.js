@@ -4,11 +4,11 @@ var fs = require("fs/promises");
 axios.get("https://jsonplaceholder.typicode.com/users")
 .then((res)=>{
     var users = res.data;
-    return fs.writeFile("user.json",JSON.stringify(users))
+    return fs.writeFile("users.json",JSON.stringify(users))
 })
-.then(()=>{
-    console.log("Users.json file has been created");
+.then((data)=>{
+    console.log("user.json file has been created");
 })
 .catch((err)=>{
-    console.error("Something went wrong");
+    console.error("Something went wrong ,Please check your code snippet");
 })
