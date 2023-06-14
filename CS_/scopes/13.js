@@ -5,8 +5,9 @@ const obj = {
         console.log(this.fname, this.age);
     }
 }
-console.log(obj.fname);
-console.log(obj.age);
+console.log(this);
+console.log(this.fname);
+console.log(this.age);
 obj.sayHai();
 
 /*
