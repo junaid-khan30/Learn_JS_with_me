@@ -1,8 +1,12 @@
 function a() {
     return {
         b: () => {
-            console.log("Hello World");
+              return {
+                c: () =>{
+                    console.log("Hello world");
+                }
+              }
         }
     }
 }
-a().b(); //Hello World  
+a().b().c(); //Hello World  
