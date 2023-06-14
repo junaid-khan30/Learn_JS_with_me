@@ -11,4 +11,4 @@ const a = {
   
   
   a.b.c();
-  
+  //a & b is an object and c is funtion

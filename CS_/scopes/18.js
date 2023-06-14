@@ -11,3 +11,4 @@ function c() {
 }
 
 a().b().c(); //Hello World
+//Currying in Javascipt 
