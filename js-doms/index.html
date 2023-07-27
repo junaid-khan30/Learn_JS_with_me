@@ -13,7 +13,7 @@
 <body>
     <center>
         <section class="timer">
-            <h1><span id="mins">00</span>m : <span id="secs">00</span> s </h1>
+            <h1><span id="hours">00</span>h : <span id="mins">00</span>m : <span id="secs">00</span> s </h1>
             <button onclick="StarClock()"> Start </button>
             <button onclick="stopClock()"> Reset </button>
         </section>
@@ -21,8 +21,9 @@
     
 </body>
 <script>
-    let myInterval;
+   let myInterval;
    function StarClock(){
+   
     let seconds = 0;
      myInterval =  setInterval(()=>{
         if(seconds<10){
@@ -36,9 +37,8 @@
    }
    function stopClock(){
     clearInterval(myInterval);
+       document.getElementById("secs").innerText="00";
    }
     
-   
-
 </script>
 </html>
