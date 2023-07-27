@@ -21,12 +21,17 @@
     
 </body>
 <script>
-    function doSomething(){
-       let seconds = document.getElementById("secs").innerText;
-       setInterval(()=>{
-        document.getElementById("secs").innerText= ++seconds;
-       },1000);
-    }
+   function doSomething(){
+    let seconds = 0;
+    setInterval(()=>{
+        if(seconds<10){
+            document.getElementById("secs").innerText=`0${++seconds}`;
+        }
+        else{
+            document.getElementById("secs").innerText=`${++seconds}`;
+        }
+    },1000);
+   }
     
    
 
