@@ -15,20 +15,20 @@
         <section class="timer">
             <h1><span id="mins">00</span>m : <span id="secs">00</span> s </h1>
             <button onclick="doSomething()"> Start </button>
-            <button onclick="Stopit()"> Reset </button>
+            <button> Reset </button>
         </section>
     </center>
     
 </body>
 <script>
     function doSomething(){
-        console.log("Testing....");
+       let seconds = document.getElementById("secs").innerText;
+       setInterval(()=>{
+        document.getElementById("secs").innerText= ++seconds;
+       },1000);
     }
-    doSomething();
-    function Stopit(){
-        console.log("Testing Stopped....");
-    }
-    Stopit();
+    
+   
 
 </script>
 </html>
