@@ -1,1 +1,2 @@
-console.log("Hello  Everyone");
+var readlineSync = require('readline-sync');
+
