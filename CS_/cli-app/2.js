@@ -16,3 +16,13 @@ console.table(address);
 
 console.log(address.street);
 console.log(address.marks);
+
+//Write a function to return average of marks array
+var array = address.marks;
+function avgMarks(array){
+    result = 0;
+    for(var i=0; i<array.length; i++){
+        result += array[i]/array.length;
+    }console.log(result);
+}
+avgMarks(array)
