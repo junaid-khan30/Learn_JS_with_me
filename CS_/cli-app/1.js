@@ -1,19 +1,11 @@
 var readlineSync = require('readline-sync');
 
-var inputNum = readlineSync.question("Enter the value of N : "); //input N
+var inputNum = readlineSync.question("Enter the Number : "); //input N
 
-function isArmstrong(num){
-    console.log(num.split(""));
-    
+function factorial(num){
+    if(num<=1) return 1;
+    return num * factorial(num - 1);
 }
 
-isArmstrong(inputNum);
-
-//DRY - Do not Repeat Yourself 
-
-//KISS - Keep it Simple ! Stupid  or Keep it Super Simple 
-
-//var result = isArmstrong(inputNum);
-
-//console.log(result);
-//any input coming from readline- sync.question is string by default.
+var result = factorial(inputNum);
+console.log(`The factorial of ${inputNum} is ${result}`);
