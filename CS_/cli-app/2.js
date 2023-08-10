@@ -1,20 +1,18 @@
-var readlineSync = require('readline-sync');
+//Objects : KEY - VALUE / DICTIONARY
+//JS DATA TYPES
 
-var inputNum = readlineSync.question("Enter the value of N : "); //input N
+var city = "Hyderabad";
+var age = 44;
 
-//Solution -1 : Strings Method
-function isArmstrong(num){
-    var digits = num.split('');
-    var sum = 0;
-    for(var i=0; i<digits.length; i++){
-        sum += digits[i] ** digits.length;
-    }
-    if(sum == num)return true;
-    else return false;
-    }
+var address = {
+    street : "HSR Layout",
+    pincode : "50001",
+    city : "Hyderabad",
+    marks : [10, 12, 15, 18]
+}
 
-    var result = isArmstrong(inputNum);
+console.log(address);
+console.table(address);
 
-    console.log(result);
-//math.floor converts the float value to round off of it 
-//math.ceil converts the number to next apprx forward value
+console.log(address.street);
+console.log(address.marks);
