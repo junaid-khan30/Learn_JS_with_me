@@ -5,7 +5,7 @@ fs.readFile('lowercase.txt', (err, data) => {
     }
     var fileData = data.toString().toUpperCase();
     console.log(`File converted to Uppercase : ${fileData}`);
-   // fs.writeFile('uppercase.txt', fileData, (err) => {
+    fs.writeFile('uppercase.txt', fileData, (err) => {
        //if (err) {
         //    throw err;
       //  }
