@@ -10,7 +10,7 @@ fs.readFile('lowercase.txt', (err, data) => {
             throw err;
         }
        console.log('Data written successfully!');
-       // fs.unlink('lowercase.txt', (err) => {
+        fs.unlink('lowercase.txt', (err) => {
           //  if (err) {
            //     throw err;
           //  }
