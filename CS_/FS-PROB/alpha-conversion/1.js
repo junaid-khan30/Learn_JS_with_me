@@ -8,7 +8,7 @@ fs.readFile('lowercase.txt', (err, data) => {
     fs.writeFile('uppercase.txt', fileData, (err) => {
        if (err) {
             throw err;
-      //  }
+        }
       //  console.log('Data written successfully!');
        // fs.unlink('lowercase.txt', (err) => {
           //  if (err) {
