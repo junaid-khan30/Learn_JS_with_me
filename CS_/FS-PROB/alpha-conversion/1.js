@@ -15,6 +15,6 @@ fs.readFile('lowercase.txt', (err, data) => {
               throw err;
             }
             console.log('File successfully deleted.');
-     //   });
+        });
     });
 });
