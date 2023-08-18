@@ -13,7 +13,7 @@ fs.readFile('lowercase.txt', (err, data) => {
         fs.unlink('lowercase.txt', (err) => {
             if (err) {
               throw err;
-          //  }
+            }
             console.log('File successfully deleted.');
      //   });
     });
