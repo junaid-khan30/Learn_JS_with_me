@@ -6,13 +6,13 @@ fs.readFile('lowercase.txt', (err, data) => {
     var fileData = data.toString().toUpperCase();
     console.log(`File converted to Uppercase : ${fileData}`);
     fs.writeFile('uppercase.txt', fileData, (err) => {
-       if (err) {
+        if (err) {
             throw err;
         }
-       console.log('Data written successfully!');
+        console.log('Data written successfully!');
         fs.unlink('lowercase.txt', (err) => {
             if (err) {
-              throw err;
+                throw err;
             }
             console.log('File successfully deleted.');
         });
