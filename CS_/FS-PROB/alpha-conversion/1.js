@@ -11,7 +11,7 @@ fs.readFile('lowercase.txt', (err, data) => {
         }
        console.log('Data written successfully!');
         fs.unlink('lowercase.txt', (err) => {
-          //  if (err) {
+            if (err) {
            //     throw err;
           //  }
             console.log('File successfully deleted.');
