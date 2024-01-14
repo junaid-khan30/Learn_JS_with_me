@@ -5,11 +5,12 @@ LAB 2 : Reverse the string
 */
 
 var str = 'HELLO'; //output : OLLEH
-// var reverse = "";
-// for(var i=4; i>=0; i--){
-//     reverse += str[i];
-// }
-// console.log(reverse);
+var reverse = "";
+for(var i=4; i>=0; i--){
+    reverse += str[i];
+}
+console.log(reverse);
+console.log(str.split("").reverse().join(""));
 
 
 // // Iterate through the string in reverse order and build the reversed string
@@ -21,9 +22,7 @@ var str = 'HELLO'; //output : OLLEH
 // console.log(reversedStr);
 
 
-//Print Reverse Pattern of HELLO 
-var pattern = "";
-for (var i=4; i>=0; i--){
-    console.log(`${pattern}${str[i]}`);
-    pattern += `${str[i]} `;
-}
+
+
+
+
