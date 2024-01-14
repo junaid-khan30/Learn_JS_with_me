@@ -24,3 +24,9 @@ for(var i=0; i<str.length; i++ ){
     console.log(temp + str[i]);
     temp += str[i] + " ";
 }
+
+var add = "";
+for(var i=0; i<str.length; i++){
+    console.log(`${add}${str[i]}`);
+    add += `${str[i]} `;
+}
