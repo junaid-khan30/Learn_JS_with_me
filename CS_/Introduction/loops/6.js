@@ -12,3 +12,7 @@ for(var i=str.length -1; i>=0; i--){
     console.log(`${temp}${str[i]} `);
     temp += str[i];
 }
+
+for ( var i of str){
+    console.log(i);
+}
