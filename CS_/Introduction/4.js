@@ -7,4 +7,6 @@ var fname = "Junaid";
 
 var arr = [1,5,6,4,9];
 
-var salary = 90000.95
+var salary = 90000.95;
+
+console.log(35 + 45.80);
