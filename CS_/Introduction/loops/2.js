@@ -12,7 +12,15 @@ var str = "HELLO";
 for(var i=0; i<str.length; i++){
     let pattern = "";
     for(var j=0; j<=i; j++){
-        pattern += str[j];
+        pattern += str[j] + " ";
     }
     console.log(pattern);
+}
+
+//another way to do this without nested loop
+
+var temp = "";
+for(var i=0; i<str.length; i++ ){
+    console.log(temp + str[i]);
+    temp += str[i] + " ";
 }
