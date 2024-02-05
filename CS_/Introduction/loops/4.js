@@ -20,3 +20,7 @@ for (let i = 1; i <= 10; i++) {
   
 console.log("Sum:", sum);
 
+
+// Question 2: Print all even numbers between 20 and 30 using a for loop.
+
+  
