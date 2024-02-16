@@ -12,4 +12,4 @@ function calculateFactorial(num) {
     return factorial;
   }
   
-  console.log("Factorial of 5:", calculateFactorial(5));
+  console.log("Factorial of 5:", calculateFactorial(5)); so     
