@@ -8,3 +8,9 @@ while (i < 5) {
     console.log(i);
     i++;
 }
+
+
+for (let i = 0; i < 10; i++) {
+    
+}
+// Output: 0 1 2 3 4
