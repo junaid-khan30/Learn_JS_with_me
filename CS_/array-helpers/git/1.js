@@ -10,3 +10,21 @@ for (let i = 0; i < numBers.length; i++) {
   doubleDNumbers.push(numBers[i] * 2);
 }
 console.log(doubleDNumbers); // [2, 4, 6, 8, 10]
+
+
+// filter()
+// Declarative:
+const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers); // [2, 4]
+// Imperative:
+
+
+const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = [];
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 === 0) {
+    evenNumbers.push(numbers[i]);
+  }
+}
+console.log(evenNumbers); // [2, 4]
