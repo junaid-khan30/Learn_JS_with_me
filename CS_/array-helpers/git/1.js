@@ -3,3 +3,10 @@
 const numbers = [1, 2, 3, 4, 5];
 const doubledNumbers = numbers.map(num => num * 2);
 console.log(doubledNumbers); // [2, 4, 6, 8, 10]
+//Imperative
+const numBers = [1, 2, 3, 4, 5];
+const doubleDNumbers = [];
+for (let i = 0; i < numBers.length; i++) {
+  doubleDNumbers.push(numBers[i] * 2);
+}
+console.log(doubleDNumbers); // [2, 4, 6, 8, 10]
