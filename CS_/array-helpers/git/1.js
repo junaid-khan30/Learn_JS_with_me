@@ -46,3 +46,9 @@ for (let i = 0; i < numbers.length; i++) {
   sum += numbers[i];
 }
 console.log(sum); // 15
+
+
+// forEach()
+// Declarative:
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(num => console.log(num));
