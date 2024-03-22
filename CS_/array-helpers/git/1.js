@@ -65,3 +65,14 @@ for (let i = 0; i < numbers.length; i++) {
 const numbers = [1, 2, 3, 4, 5];
 const found = numbers.find(num => num > 3);
 console.log(found); // 4
+
+// Imperative:
+const numbers = [1, 2, 3, 4, 5];
+let found;
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] > 3) {
+    found = numbers[i];
+    break;
+  }
+}
+console.log(found); // 4
