@@ -58,3 +58,10 @@ const numbers = [1, 2, 3, 4, 5];
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
+
+// find()
+// Declarative:
+
+const numbers = [1, 2, 3, 4, 5];
+const found = numbers.find(num => num > 3);
+console.log(found); // 4
