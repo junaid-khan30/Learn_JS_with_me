@@ -52,3 +52,9 @@ console.log(sum); // 15
 // Declarative:
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(num => console.log(num));
+// Imperative:
+
+const numbers = [1, 2, 3, 4, 5];
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
