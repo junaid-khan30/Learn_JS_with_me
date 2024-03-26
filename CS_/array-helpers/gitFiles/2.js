@@ -16,7 +16,13 @@ const evenNumbers = array => array.filter(item => item % 2 === 0);
 
 // Filter
 function evenNumbersImperative(array) {
-    
+    const evens = [];
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] % 2 === 0) {
+        evens.push(array[i]);
+      }
+    }
+    return evens;
   }
 
 // Reduce
