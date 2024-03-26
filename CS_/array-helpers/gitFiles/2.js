@@ -14,5 +14,10 @@ function doubleArrayImperative(array) {
 // Filter
 const evenNumbers = array => array.filter(item => item % 2 === 0);
 
+// Filter
+function evenNumbersImperative(array) {
+    
+  }
+
 // Reduce
 const sumArray = array => array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
