@@ -30,5 +30,9 @@ const sumArray = array => array.reduce((accumulator, currentValue) => accumulato
 
 // Reduce
 function sumArrayImperative(array) {
-    
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+      sum += array[i];
+    }
+    return sum;
   }
