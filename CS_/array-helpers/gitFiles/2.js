@@ -27,3 +27,8 @@ function evenNumbersImperative(array) {
 
 // Reduce
 const sumArray = array => array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+// Reduce
+function sumArrayImperative(array) {
+    
+  }
