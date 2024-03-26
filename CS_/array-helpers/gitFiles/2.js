@@ -1,6 +1,12 @@
 // Map
 const doubleArray = array => array.map(item => item * 2);
 
+// Map
+function doubleArrayImperative(array) {
+    
+  }
+
+
 // Filter
 const evenNumbers = array => array.filter(item => item % 2 === 0);
 
