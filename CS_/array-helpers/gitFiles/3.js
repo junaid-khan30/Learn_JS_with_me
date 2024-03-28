@@ -18,4 +18,9 @@ console.log(eveNNumbers); // Output: [2, 4]
 
 const numbErs = [1, 2, 3, 4, 5];
 const evenNumbers = [];
-
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+      evenNumbers.push(numbers[i]);
+    }
+  }
+  
