@@ -12,4 +12,4 @@ console.log(doubleDNumbers); // Output: [2, 4, 6, 8, 10]
 
 const numBers = [1, 2, 3, 4, 5];
 const eveNNumbers = numbers.filter(num => num % 2 === 0);
-
+console.log(eveNNumbers); // Output: [2, 4]
