@@ -40,3 +40,7 @@ for (let i = 0; i < numbers.length; i++) {
   const foundNumber = numbers.find(num => num === 3);
   console.log(foundNumber); // Output: 3
   
+
+  const numbers = [1, 2, 3, 4, 5];
+let foundNumber;
+
