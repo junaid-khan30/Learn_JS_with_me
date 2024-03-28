@@ -26,5 +26,6 @@ for (let i = 0; i < numbers.length; i++) {
   console.log(evenNumbers); // Output: [2, 4]
 
   const numbers = [1, 2, 3, 4, 5];
-  
+  const sum = numbers.reduce((acc, num) => acc + num, 0);
+  console.log(sum); // Output: 15
   
