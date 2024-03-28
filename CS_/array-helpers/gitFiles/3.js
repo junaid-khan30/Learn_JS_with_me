@@ -23,4 +23,4 @@ for (let i = 0; i < numbers.length; i++) {
       evenNumbers.push(numbers[i]);
     }
   }
-  
+  console.log(evenNumbers); // Output: [2, 4]
