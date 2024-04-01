@@ -4,5 +4,10 @@ function fetchData() {
         setTimeout(() => {
             const data = { message: 'Data fetched successfully' };
             resolve(data);
-          
+        }, 2000);
+    });
+  }
+  
+  // Using the promise
+  
   
