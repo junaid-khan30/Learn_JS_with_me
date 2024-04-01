@@ -9,5 +9,8 @@ function fetchData() {
   }
   
   // Using the promise
-  
-  
+  fetchData()
+    .then(data => {
+      console.log(data);
+    })
+     
