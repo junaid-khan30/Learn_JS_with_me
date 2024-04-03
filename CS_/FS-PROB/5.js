@@ -8,5 +8,5 @@ fs.writeFile('example.txt', content, (err) => {
         console.error('Error writing to file:', err);
         return;
       }
-      
+      console.log('Content has been written to the file.');
 });
