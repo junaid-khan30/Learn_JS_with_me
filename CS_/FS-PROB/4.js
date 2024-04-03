@@ -8,5 +8,5 @@ fs.appendFile('example.txt', newContent, (err) => {
         console.error('Error appending to file:', err);
         return;
       }
-      
+      console.log('Content has been appended to the file.');
 });
