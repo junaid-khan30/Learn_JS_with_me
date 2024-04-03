@@ -10,3 +10,9 @@ fs.writeFile('example.txt', content, (err) => {
       }
       console.log('Content has been written to the file.');
 });
+
+const fs = require('fs');
+
+// Checking if a file exists
+fs.access('example.txt', fs.constants.F_OK, (err) => {
+  
