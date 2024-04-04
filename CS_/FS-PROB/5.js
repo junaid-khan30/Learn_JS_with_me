@@ -21,3 +21,11 @@ fs.access('example.txt', fs.constants.F_OK, (err) => {
       }
       console.log('File exists and is accessible.');
     });
+
+    const fs = require('fs').promises;
+
+async function readFileAsync() {
+  
+
+readFileAsync();
+
