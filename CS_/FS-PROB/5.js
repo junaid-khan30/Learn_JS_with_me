@@ -39,7 +39,8 @@ const fs = require('fs').promises;
 
 async function writeFileAsync(content) {
   try {
-    
+    await fs.writeFile('example.txt', content);
+    console.log('Content has been written to the file.');
   } catch (err) {
     console.error('Error writing to file:', err);
   }
