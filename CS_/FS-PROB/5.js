@@ -25,7 +25,12 @@ fs.access('example.txt', fs.constants.F_OK, (err) => {
     const fs = require('fs').promises;
 
 async function readFileAsync() {
-  
+  try {
+    ;
+  } catch (err) {
+    console.error('Error reading file:', err);
+  }
+}
 
 readFileAsync();
 
