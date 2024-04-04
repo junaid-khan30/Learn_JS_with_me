@@ -53,7 +53,8 @@ const fs = require('fs').promises;
 
 async function appendFileAsync(newContent) {
   try {
-    
+    await fs.appendFile('example.txt', newContent);
+    console.log('Content has been appended to the file.');
   } catch (err) {
     console.error('Error appending to file:', err);
   }
