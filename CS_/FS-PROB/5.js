@@ -52,6 +52,10 @@ writeFileAsync('This is the content to write to the file.');
 const fs = require('fs').promises;
 
 async function appendFileAsync(newContent) {
-  
-
+  try {
+    
+  } catch (err) {
+    console.error('Error appending to file:', err);
+  }
+}
 appendFileAsync('This is the new content to append to the file.');
