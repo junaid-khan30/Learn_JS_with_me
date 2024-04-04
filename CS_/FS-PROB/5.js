@@ -35,3 +35,11 @@ async function readFileAsync() {
 
 readFileAsync();
 
+const fs = require('fs').promises;
+
+async function writeFileAsync(content) {
+  try {
+    
+}
+
+writeFileAsync('This is the content to write to the file.');
