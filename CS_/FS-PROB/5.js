@@ -47,3 +47,11 @@ async function writeFileAsync(content) {
 }
 
 writeFileAsync('This is the content to write to the file.');
+
+
+const fs = require('fs').promises;
+
+async function appendFileAsync(newContent) {
+  
+
+appendFileAsync('This is the new content to append to the file.');
