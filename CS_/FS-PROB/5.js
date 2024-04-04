@@ -40,6 +40,9 @@ const fs = require('fs').promises;
 async function writeFileAsync(content) {
   try {
     
+  } catch (err) {
+    console.error('Error writing to file:', err);
+  }
 }
 
 writeFileAsync('This is the content to write to the file.');
