@@ -36,4 +36,7 @@ console.log(squaredNumbers);
 
 // Using filter
 const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers);
+
+// Using reduce
 
