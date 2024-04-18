@@ -27,3 +27,8 @@ for (let i = 0; i < 10; i++) {
     }
     console.log(i);
 }
+
+const numbers = [1, 2, 3, 4, 5];
+
+// Using map
+const squaredNumbers = numbers.map(num => num * num);
