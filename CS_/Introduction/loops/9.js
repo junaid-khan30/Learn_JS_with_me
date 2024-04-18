@@ -25,5 +25,5 @@ for (let i = 0; i < 10; i++) {
     if (i === 8) {
         break; // Stops the loop when i is 8
     }
-   
+    console.log(i);
 }
