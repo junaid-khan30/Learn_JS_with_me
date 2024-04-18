@@ -13,3 +13,6 @@ for (let key in person) {
     console.log(`${key}: ${person[key]}`);
 }  
 
+const numbers = [1, 2, 3, 4, 5];
+
+
