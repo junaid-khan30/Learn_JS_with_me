@@ -3,3 +3,8 @@ for (let i = 0; i < 5; i++) {
         console.log(`i: ${i}, j: ${j}`);
     }
 }
+
+const person = {
+    name: 'John',
+    age: 30,
+    
