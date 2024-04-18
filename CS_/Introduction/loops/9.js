@@ -7,4 +7,7 @@ for (let i = 0; i < 5; i++) {
 const person = {
     name: 'John',
     age: 30,
-    
+    city: 'New York'
+};
+
+
