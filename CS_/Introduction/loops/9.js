@@ -39,4 +39,5 @@ const evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers);
 
 // Using reduce
+const sum = numbers.reduce((acc, curr) => acc + curr, 0);
 
