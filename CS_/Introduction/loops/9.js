@@ -34,4 +34,6 @@ const numbers = [1, 2, 3, 4, 5];
 const squaredNumbers = numbers.map(num => num * num);
 console.log(squaredNumbers);
 
+// Using filter
+const evenNumbers = numbers.filter(num => num % 2 === 0);
 
