@@ -22,5 +22,8 @@ for (let i = 0; i < 10; i++) {
     if (i === 3) {
         continue; // Skips iteration when i is 3
     }
-    
+    if (i === 8) {
+        break; // Stops the loop when i is 8
+    }
+   
 }
