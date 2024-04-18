@@ -32,3 +32,6 @@ const numbers = [1, 2, 3, 4, 5];
 
 // Using map
 const squaredNumbers = numbers.map(num => num * num);
+console.log(squaredNumbers);
+
+
