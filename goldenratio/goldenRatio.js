@@ -4,4 +4,5 @@ function goldenRatio(n) {
     } else if (n === 1) {
         return 1;
     } else {
+        let a = 0;
         
