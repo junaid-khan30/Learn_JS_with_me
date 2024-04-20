@@ -11,4 +11,8 @@ function goldenRatio(n) {
             a = b;
             b = temp;
         }
-        
+        return b / a; // Golden ratio approximation
+    }
+}
+
+
