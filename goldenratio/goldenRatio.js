@@ -18,4 +18,4 @@ function goldenRatio(n) {
 // Example usage:
 const n = 10; // Calculate the golden ratio approximation for the nth Fibonacci number
 const ratio = goldenRatio(n);
-
+console.log(`The golden ratio approximation for the ${n}th Fibonacci number is: ${ratio}`);
