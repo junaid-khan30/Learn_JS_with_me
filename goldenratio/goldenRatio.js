@@ -9,4 +9,6 @@ function goldenRatio(n) {
         for (let i = 2; i <= n; i++) {
             const temp = a + b;
             a = b;
-            
+            b = temp;
+        }
+        
