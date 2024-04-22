@@ -36,3 +36,8 @@ if (isPrime) {
 } else {
     console.log(num + " is not a prime number");
 }
+
+
+let terms = parseInt(prompt("Enter the number of terms: "));
+let a = 0, b = 1;
+
