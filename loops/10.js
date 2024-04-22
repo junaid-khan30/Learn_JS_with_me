@@ -43,5 +43,7 @@ let a = 0, b = 1;
 console.log("Fibonacci series:");
 for (let i = 0; i < terms; i++) {
     console.log(a);
-    
+    let temp = a;
+    a = b;
+    b = temp + b;
 }
