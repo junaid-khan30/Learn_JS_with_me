@@ -6,3 +6,6 @@ for (let i = 1; i <= rows; i++) {
     }
     console.log(pattern);
 }
+
+let num = parseInt(prompt("Enter a number: "));
+
