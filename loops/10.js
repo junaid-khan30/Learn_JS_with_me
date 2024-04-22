@@ -40,4 +40,5 @@ if (isPrime) {
 
 let terms = parseInt(prompt("Enter the number of terms: "));
 let a = 0, b = 1;
+console.log("Fibonacci series:");
 
