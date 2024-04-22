@@ -31,4 +31,6 @@ if (num <= 1) {
         }
     }
 }
-
+if (isPrime) {
+    console.log(num + " is a prime number");
+} 
