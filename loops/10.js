@@ -21,4 +21,7 @@ console.log("Factorial of", num, "is", factorial);
 
 let num = parseInt(prompt("Enter a number: "));
 let isPrime = true;
-
+if (num <= 1) {
+    isPrime = false;
+}  console.log(num + " is not a prime number");
+}
