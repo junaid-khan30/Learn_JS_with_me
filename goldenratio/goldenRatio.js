@@ -31,4 +31,8 @@ console.log(`The golden ratio approximation for the ${n}th Fibonacci number is: 
 function fibonacci(n) {
     var sequence = [0, 1];
     for (var i = 2; i <= n; i++) {
-        
+        sequence.push(sequence[i - 1] + sequence[i - 2]);
+    }
+    return sequence;
+}
+
