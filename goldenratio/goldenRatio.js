@@ -42,5 +42,7 @@ function goldenRatio(n) {
     var secondToLast = fibSequence[fibSequence.length - 2];
     return last / secondToLast;
 }
+// Example usage:
+var n = 10; // Adjust the value of n as needed
 
 
