@@ -19,3 +19,15 @@ function goldenRatio(n) {
 const n = 10; // Calculate the golden ratio approximation for the nth Fibonacci number
 const ratio = goldenRatio(n);
 console.log(`The golden ratio approximation for the ${n}th Fibonacci number is: ${ratio}`);
+
+
+
+
+
+
+
+
+
+function fibonacci(n) {
+    var sequence = [0, 1];
+    
