@@ -37,4 +37,5 @@ function fibonacci(n) {
 }
 
 function goldenRatio(n) {
+    var fibSequence = fibonacci(n);
     
