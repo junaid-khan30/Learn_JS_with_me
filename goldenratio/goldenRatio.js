@@ -39,4 +39,5 @@ function fibonacci(n) {
 function goldenRatio(n) {
     var fibSequence = fibonacci(n);
     var last = fibSequence[fibSequence.length - 1];
+    var secondToLast = fibSequence[fibSequence.length - 2];
     
