@@ -36,3 +36,5 @@ function fibonacci(n) {
     return sequence;
 }
 
+function goldenRatio(n) {
+    
