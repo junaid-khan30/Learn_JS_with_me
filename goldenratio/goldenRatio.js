@@ -44,5 +44,6 @@ function goldenRatio(n) {
 }
 // Example usage:
 var n = 10; // Adjust the value of n as needed
+var ratio = goldenRatio(n);
 
 
