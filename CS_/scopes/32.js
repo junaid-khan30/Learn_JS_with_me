@@ -13,5 +13,6 @@ function globalFunction() {
     console.log(localVar); // accessible
   }
   
+  localFunction(); // Output: 'I am a local variable'
   
   
