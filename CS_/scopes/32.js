@@ -4,4 +4,5 @@ function globalFunction() {
     console.log(globalVar); // accessible
   }
   
-  
+  globalFunction(); // Output: 'I am a global variable'
+
