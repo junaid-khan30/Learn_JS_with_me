@@ -14,5 +14,5 @@ function globalFunction() {
   }
   
   localFunction(); // Output: 'I am a local variable'
-  
+  console.log(localVar); // Error: localVar is not defined
   
