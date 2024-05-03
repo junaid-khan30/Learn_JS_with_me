@@ -28,5 +28,6 @@ function globalFunction() {
       innerFunction();
     }
     
-    
+    outerFunction(); // Output: 'I am in the outer function'
+    c
   
