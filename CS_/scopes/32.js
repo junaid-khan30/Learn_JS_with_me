@@ -25,5 +25,8 @@ function globalFunction() {
         console.log(outerVar); // accessible
       }
       
-      i
+      innerFunction();
+    }
+    
+    
   
