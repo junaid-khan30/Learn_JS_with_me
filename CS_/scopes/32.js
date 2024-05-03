@@ -29,5 +29,5 @@ function globalFunction() {
     }
     
     outerFunction(); // Output: 'I am in the outer function'
-    c
+    console.log(outerVar); // Error: outerVar is not defined
   
