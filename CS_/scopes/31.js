@@ -7,3 +7,6 @@ function abc(){
 }
 
 //without using "use strict" it will give you YES
+
+
+
