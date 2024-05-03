@@ -21,5 +21,9 @@ function globalFunction() {
   function outerFunction() {
     var outerVar = 'I am in the outer function';
     
-    
+    function innerFunction() {
+        console.log(outerVar); // accessible
+      }
+      
+      i
   
