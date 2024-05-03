@@ -16,3 +16,10 @@ function globalFunction() {
   localFunction(); // Output: 'I am a local variable'
   console.log(localVar); // Error: localVar is not defined
   
+
+
+  function outerFunction() {
+    var outerVar = 'I am in the outer function';
+    
+    
+  
