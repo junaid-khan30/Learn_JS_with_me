@@ -7,3 +7,9 @@ function globalScopeExample() {
 
 globalScopeExample(); // Output: I'm global
 console.log(globalVar); // Output: I'm global
+
+
+
+//Function Scopes
+function functionScopeExample() {
+    
