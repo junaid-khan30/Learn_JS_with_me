@@ -5,4 +5,5 @@ function globalScopeExample() {
     console.log(globalVar); // Accessible inside the function
 }
 
+globalScopeExample(); // Output: I'm global
 
