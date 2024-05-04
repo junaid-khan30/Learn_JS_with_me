@@ -17,4 +17,4 @@ function functionScopeExample() {
 }
 
 // console.log(localVar); // Error: localVar is not defined, because it's only accessible inside the function
-
+functionScopeExample(); // Output: I'm local
