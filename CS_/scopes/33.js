@@ -13,4 +13,7 @@ console.log(globalVar); // Output: I'm global
 //Function Scopes
 function functionScopeExample() {
     var localVar = "I'm local";
-    
+    console.log(localVar); // Accessible inside the function
+}
+
+
