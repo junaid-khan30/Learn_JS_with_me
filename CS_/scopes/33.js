@@ -31,5 +31,6 @@ function foo() {
     var localVar = "I'm in the local scope";
     console.log(localVar); // Accessible
 }
-
+foo();
+// console.log(localVar); // Error: localVar is not defined
 
