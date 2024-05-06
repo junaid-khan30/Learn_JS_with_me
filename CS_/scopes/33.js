@@ -28,4 +28,5 @@ function foo() {
 foo();
 
 function foo() {
+    var localVar = "I'm in the local scope";
     
