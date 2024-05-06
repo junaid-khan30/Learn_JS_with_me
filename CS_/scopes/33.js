@@ -21,4 +21,6 @@ functionScopeExample(); // Output: I'm local
 
 
 var globalVar = "I'm in the global scope";
+function foo() {
+    
 
