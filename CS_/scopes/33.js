@@ -29,4 +29,7 @@ foo();
 
 function foo() {
     var localVar = "I'm in the local scope";
-    
+    console.log(localVar); // Accessible
+}
+
+
