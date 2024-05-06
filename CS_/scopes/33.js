@@ -25,5 +25,5 @@ function foo() {
     console.log(globalVar); // Accessible
 }
 
-
+foo();
 
