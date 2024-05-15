@@ -47,3 +47,6 @@ for (let i = 0; i < terms; i++) {
     a = b;
     b = temp + b;
 }
+
+for (let i = 1; i <= 5; i++) {
+   
