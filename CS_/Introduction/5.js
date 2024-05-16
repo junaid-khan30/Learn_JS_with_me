@@ -13,4 +13,6 @@ function multiply(a, b) {
   // Question: How can you call the multiply function to multiply 5 and 7?
   const result = multiply(5, 7);
   
+  // Answer: You can call the multiply function like this: multiply(5, 7). The result will be 35.
+  
   
