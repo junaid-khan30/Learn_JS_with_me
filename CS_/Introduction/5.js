@@ -15,4 +15,9 @@ function multiply(a, b) {
   
   // Answer: You can call the multiply function like this: multiply(5, 7). The result will be 35.
   
+  // Question: What does the following code output?
+  console.log(result);
+  
+  // Answer: The output will be 35, because the result variable holds the value returned by the multiply function.
+  
   
