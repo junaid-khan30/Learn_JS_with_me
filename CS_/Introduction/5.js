@@ -8,5 +8,9 @@ console.log(story2);
 function multiply(a, b) {
     return a * b;
   }
+  // Answer: This function multiplies two numbers together and returns the result.
+  
+  // Question: How can you call the multiply function to multiply 5 and 7?
+  const result = multiply(5, 7);
   
   
