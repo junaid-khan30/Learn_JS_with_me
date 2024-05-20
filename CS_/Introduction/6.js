@@ -18,3 +18,10 @@ function add(a, b) {
     alert("Button was clicked!");
   });
   
+
+
+  //FETCH API
+  fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
