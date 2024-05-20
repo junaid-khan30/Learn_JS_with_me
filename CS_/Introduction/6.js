@@ -11,3 +11,10 @@ function add(a, b) {
 
   //manipulating DOM 
   document.getElementById("myElement").textContent = "New text content";
+
+
+  //eVENT LISTENER
+  document.getElementById("myButton").addEventListener("click", function() {
+    alert("Button was clicked!");
+  });
+  
