@@ -40,3 +40,19 @@ function add(a, b) {
   
   fetchData();
   
+
+  //ARRAY MANIPULATION 
+  let numbers = [1, 2, 3, 4, 5];
+
+// Filter: Get even numbers
+let evenNumbers = numbers.filter(num => num % 2 === 0);
+
+// Map: Square each number
+let squaredNumbers = numbers.map(num => num * num);
+
+// Reduce: Sum of all numbers
+let sum = numbers.reduce((accumulator, current) => accumulator + current, 0);
+
+console.log(evenNumbers); // Output: [2, 4]
+console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+console.log(sum); // Output: 15
