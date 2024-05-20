@@ -8,3 +8,6 @@ function add(a, b) {
   let result = add(3, 4);
   console.log(result); // Output: 7
   
+
+  //manipulating DOM 
+  document.getElementById("myElement").textContent = "New text content";
