@@ -56,3 +56,31 @@ let sum = numbers.reduce((accumulator, current) => accumulator + current, 0);
 console.log(evenNumbers); // Output: [2, 4]
 console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
 console.log(sum); // Output: 15
+
+
+//OBJECT MANIPULATION 
+let person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  
+  // Accessing properties
+  console.log(person.name); // Output: John
+  
+  // Adding a new property
+  person.country = "USA";
+  
+  // Modifying an existing property
+  person.age = 31;
+  
+  console.log(person);
+  /* Output:
+  {
+    name: "John",
+    age: 31,
+    city: "New York",
+    country: "USA"
+  }
+  */
+  
